@@ -1,5 +1,5 @@
 def find_index(list_of_products, product):
-    for index, value in enumerate(list_of_products, start=1):
+    for index, value in enumerate(list_of_products):
         if value == product:
             return index
 
